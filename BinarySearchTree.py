@@ -1,3 +1,5 @@
+#Задание - создать класс бинарного дерева поиска
+
 from collections import deque
 
 class treeNode:
@@ -74,7 +76,6 @@ class BinarySearchTree:
 
     def get_value(self):
         return self.root.get_value()
-    #Экспериментальные функции
 
     def __iter__(self):
         d = deque()
